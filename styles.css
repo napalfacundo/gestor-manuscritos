@@ -1,0 +1,17 @@
+body {
+  padding: 48px;
+}
+
+.inline {
+    margin-right: 96px;
+}
+
+.numeros {
+  display: flex;
+  letter-spacing: 10px;
+}
+
+.sintaxis-numeros {
+    margin-right: 96px;
+}
+
