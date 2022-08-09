@@ -11,7 +11,36 @@ body {
   letter-spacing: 10px;
 }
 
+.sintaxis {
+  display: ;
+}
+
 .sintaxis-numeros {
     margin-right: 96px;
 }
 
+fieldset {
+  width: 100px;
+  display: inline;
+
+}
+
+.puntuar-manuscrito-form {
+  margin-top: 48px;
+  vertical-align: auto;
+}
+
+h3 {
+  display: block;
+  background-color: coral;
+  margin: 24px 0;
+  padding-left: 12px;
+}
+
+textarea[name="comentarios"] {
+  height: 259px;
+}
+
+.manuscritos-crud button {
+  background-color: ghostwhite;
+}
