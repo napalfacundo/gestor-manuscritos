@@ -6,21 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manuscritos</title>
 
-    <script src="main.js"></script>
+    <script defer src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <link rel="stylesheet" href="skeleton.css">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <div class="manuscritos-crud">
         <button>Ingresar manuscrito</button>
         <button>Modificar manuscrito</button>
         <button>Leer manuscrito</button>
         <button>Eliminar manuscrito</button>
     </div>
+    <br>
+    <div class="categories-crud">
+        <button id="insertCatBtn">Ingresar categoría</button>
+        <button>Modificar categoría</button>
+        <button>Leer categoría</button>
+        <button>Eliminar categoría</button>
+        <button id="shoCatBtn">Mostrar categorías</button>
+    </div>
+    <div id="aside">
+        <div id="chartContainer">
+            <canvas id="myChart"></canvas>
+        </div>
+    </div>
+    <div id="categoriesContainer"></div>
+    
 
-    <form action="" class="puntuar-manuscrito-form">
+    
+
+    <!-- <form action="" class="puntuar-manuscrito-form">
         <h3 class="sintaxis">sintaxis</h3>
         <fieldset>
             <input type="radio" id="sintaxis1" name="gramatica" value="1">
@@ -137,9 +156,8 @@
             <label for="emocion">5</label>
         </fieldset>
 
-        <!-- <input type="range" min="-10" max="10"> -->
 
-    </form>
+    </form> -->
 </body>
 </html>
 <!-- h3.gramatica{gramatica}+br>(input[type="radio" id="gramatica$" name="gramatica" value="$"]+label[for="gramatica"]{$})*5
