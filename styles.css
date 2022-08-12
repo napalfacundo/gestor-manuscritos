@@ -2,7 +2,7 @@ body {
   padding: 48px;
 }
 
-.inline {
+/* .inline {
     margin-right: 96px;
 }
 
@@ -43,4 +43,74 @@ textarea[name="comentarios"] {
 
 .manuscritos-crud button {
   background-color: ghostwhite;
+} */
+
+.category__container {
+  margin-top: 64px;
+}
+
+.category__container--main {
+  display: flex;
+}
+
+.score-buttons__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.score-buttons__container button {
+  width: 100px;
+  margin-bottom: 8px;
+  margin-right: 48px;
+}
+
+.comments__container {
+  height:224px;
+}
+
+.comments__container textarea {
+  height: 100%;
+  margin-left: 150px;
+}
+
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: grey;
+  border: 1px solid;
+  width: 214px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+ background-color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+}
+
+#chartContainer {
+  max-width: 450px;
+  position: fixed;
+}
+
+#aside {
+  float: right;
+  position: relative;
+  right: 30%; 
 }
